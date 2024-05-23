@@ -1,0 +1,65 @@
+/* General Styles */
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.getomnify.com%2Fblog%2Fone-reservation-system&psig=AOvVaw0n5__ysqnI49IznrqviJrJ&ust=1716528853641000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjVmtqNo4YDFQAAAAAdAAAAABAE");
+}
+
+/* Layout Styles */
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #007BFF;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; /* Align navbar items to the right */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
